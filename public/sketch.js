@@ -200,6 +200,16 @@ function drawUI() {
     textSize(14);
     textAlign(LEFT, CENTER);
     text(message, 20, height - 20);
+
+    let audioStatus = (getAudioContext().state === 'running') ? "" : " ⚠️ CLICK SCREEN TO ENABLE SOUND";
+    text(message + audioStatus, 20, height - 20);
+}
+
+function mousePressed() {
+    if (getAudioContext().state !== 'running') {
+        getAudioContext().resume();
+        console.log("Audio Context Resumed! 🎵");
+    }
 }
 
 function windowResized() {
