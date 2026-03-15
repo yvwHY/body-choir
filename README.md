@@ -1,3 +1,11 @@
+# **Distributed-choir**
+
+**Date:** March 14, 2026
+
+**Author:** Yu Ting Liao
+
+**Project Type:** WCC2 Workshop 4 \- Technical Proof of Concept
+
 # **🎼 Body Orchestra: AI Generative Staff**
 
 An interactive audiovisual installation that transforms human body movements into a dynamic musical performance. By using **ML5.js BodyPose**, your wrists and elbows become "living notes" on a virtual musical staff.
