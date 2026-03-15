@@ -1,4 +1,4 @@
-# **Distributed-choir**
+# **Body Orchestra**
 
 **Date:** March 14, 2026
 
